@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" role="img" aria-labelledby="title desc">
   <title id="title">Kendell icon</title>
-  <desc id="desc">A white rounded square with a Bristol green branching K.</desc>
+  <desc id="desc">A white rounded app icon with a Bristol green K.</desc>
   <rect x="24" y="24" width="208" height="208" rx="48" fill="#ffffff" stroke="#00491e" stroke-width="12"/>
-  <path d="M78 68v120M80 128l88-58M80 128l92 60" fill="none" stroke="#00491e" stroke-width="18" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M70 60h24v58l62-58h33l-71 66 76 70h-34l-66-61v61H70z" fill="#00491e"/>
 </svg>

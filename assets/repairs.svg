@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" width="1000" height="1000"><style>
+    #light-icon {
+      display: inline;
+    }
+    #dark-icon {
+      display: none;
+    }
+
+    @media (prefers-color-scheme: dark) {
+      #light-icon {
+        display: none;
+      }
+      #dark-icon {
+        display: inline;
+      }
+    }
+  </style><g id="light-icon"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" width="1000" height="1000"><g><g transform="matrix(18.181818181818183,0,0,18.181818181818183,-5.684341886080802e-14,-5.684341886080802e-14)"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" width="55" height="55"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 55 55">
+  <path d="M 16 41 S 17 40 20.701 37.764 C 31 31 48 20 53.096 18.263 C 55 16 55.191 15.448 52.222 11.393 L 19.486 33.547 L 14 39 L 16 41 Z" fill="white"></path>
+  <path d="M14 39C19.8 29.3 26 20 33 11 35.5 8.1 39.945 3.14 40.8 2.6 42.186 1.565 43.755 2.841 47.233 5.949 50.477 9.118 49.839 8.405 52.222 11.393 53.403 12.987 51.959 13.735 47.928 16.021 40.854 20.246 40.949 20.009 33.019 25.232 25.801 29.956 19.801 33.956 14 39Z" fill="#00491e"></path>
+  <path d="M16 41S17 40 20.701 37.764C31 31 48 20 53 18 55 18 31.7 43 31.7 43S26.6 41.3 24.737 41.109C22 40.68 17 41 17 41Z" fill="#00491e"></path>
+  <path d="M16 41 6 51 4 49 14 39" fill="black"></path>
+</svg></svg></g></g></svg></g><g id="dark-icon"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" width="1000" height="1000"><g clip-path="url(#SvgjsClipPath1043)"><rect width="1000" height="1000" fill="#ffffff"></rect><g transform="matrix(14.545454545454545,0,0,14.545454545454545,100,100)"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" width="55" height="55"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 55 55">
+<path d="M 16 41 S 17 40 20.701 37.764 C 31 31 48 20 53.096 18.263 C 55 16 55.191 15.448 52.222 11.393 L 19.486 33.547 L 14 39 L 16 41 Z" fill="white"></path>
+  <path d="M14 39C19.8 29.3 26 20 33 11 35.5 8.1 39.945 3.14 40.8 2.6 42.186 1.565 43.755 2.841 47.233 5.949 50.477 9.118 49.839 8.405 52.222 11.393 53.403 12.987 51.959 13.735 47.928 16.021 40.854 20.246 40.949 20.009 33.019 25.232 25.801 29.956 19.801 33.956 14 39Z" fill="#00491e"></path>
+  <path d="M16 41S17 40 20.701 37.764C31 31 48 20 53 18 55 18 31.7 43 31.7 43S26.6 41.3 24.737 41.109C22 40.68 17 41 17 41Z" fill="#00491e"></path>
+  <path d="M16 41 6 51 4 49 14 39" fill="black"></path>
+</svg></svg></g></g><defs><clipPath id="SvgjsClipPath1043"><rect width="1000" height="1000" x="0" y="0" rx="250" ry="250"></rect></clipPath></defs></svg></g></svg>
