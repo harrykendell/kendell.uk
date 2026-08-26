@@ -138,9 +138,25 @@ main {
   gap: 3px;
 }
 
+.project-heading {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
 .project-title {
   font-weight: 700;
   letter-spacing: -0.015em;
+}
+
+.project-status {
+  padding: 2px 6px;
+  border: 1px solid var(--border-strong);
+  border-radius: 999px;
+  color: var(--muted);
+  font-size: 10px;
+  font-weight: 700;
+  letter-spacing: 0.04em;
 }
 
 .project-description {
