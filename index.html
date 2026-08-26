@@ -4,9 +4,9 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="color-scheme" content="light dark">
-  <meta name="theme-color" content="#f7f9fb" media="(prefers-color-scheme: light)">
-  <meta name="theme-color" content="#10161d" media="(prefers-color-scheme: dark)">
-  <meta name="description" content="Kendell projects and tools.">
+  <meta name="theme-color" content="#f7f7f5" media="(prefers-color-scheme: light)">
+  <meta name="theme-color" content="#171716" media="(prefers-color-scheme: dark)">
+  <meta name="description" content="Kendell projects, tools and practical notes.">
   <title>Kendell</title>
   <link rel="icon" href="favicon.svg" type="image/svg+xml">
   <link rel="stylesheet" href="styles.css">
@@ -14,44 +14,45 @@
 <body>
   <div class="page-shell">
     <header class="site-header">
-      <a class="brand" href="/" aria-label="Kendell home">
-        <span class="brand-mark" aria-hidden="true">K</span>
-        <span>Kendell</span>
-      </a>
+      <a class="brand" href="/" aria-label="Kendell home">kendell.uk</a>
+      <span class="header-note">projects &amp; useful things</span>
     </header>
 
     <main>
       <section class="intro" aria-labelledby="page-title">
-        <p class="eyebrow">kendell.uk</p>
-        <h1 id="page-title">Projects and tools.</h1>
-        <p class="lede">A home for practical software, lab infrastructure and ongoing projects.</p>
+        <h1 id="page-title">Things I build and maintain.</h1>
+        <p class="lede">Mostly lab software, workshop tools and small bits of infrastructure that are more useful with a proper home than buried in a bookmark folder.</p>
       </section>
 
-      <section class="projects" aria-label="Projects">
-        <a class="project-card" href="https://artiq.kendell.uk/">
-          <div class="project-card__top">
-            <span class="project-tag">Laboratory</span>
-            <span class="project-arrow" aria-hidden="true">↗</span>
-          </div>
-          <div>
-            <h2>ARTIQ</h2>
-            <p>Live experiment viewer, data archive and control interface.</p>
-          </div>
-          <span class="project-host">artiq.kendell.uk</span>
+      <section class="project-list" aria-label="Projects">
+        <a class="project-row project-row--green" href="https://artiq.kendell.uk/">
+          <span class="project-index" aria-hidden="true">01</span>
+          <span class="project-main">
+            <span class="project-title">ARTIQ lab tools</span>
+            <span class="project-description">Live experiment viewer, archive and control interface for the cold-atom lab.</span>
+          </span>
+          <span class="project-meta">
+            <span class="project-kind">lab</span>
+            <span class="project-host">artiq.kendell.uk</span>
+          </span>
+          <span class="project-arrow" aria-hidden="true">↗</span>
         </a>
 
-        <a class="project-card" href="https://repairs.kendell.uk/">
-          <div class="project-card__top">
-            <span class="project-tag">Workshop</span>
-            <span class="project-arrow" aria-hidden="true">↗</span>
-          </div>
-          <div>
-            <h2>Repairs</h2>
-            <p>Boat repair records, guidance and project documentation.</p>
-          </div>
-          <span class="project-host">repairs.kendell.uk</span>
+        <a class="project-row project-row--brown" href="https://repairs.kendell.uk/">
+          <span class="project-index" aria-hidden="true">02</span>
+          <span class="project-main">
+            <span class="project-title">Boat repairs</span>
+            <span class="project-description">Repair records, practical guidance and workshop documentation for rowing boats.</span>
+          </span>
+          <span class="project-meta">
+            <span class="project-kind">workshop</span>
+            <span class="project-host">repairs.kendell.uk</span>
+          </span>
+          <span class="project-arrow" aria-hidden="true">↗</span>
         </a>
       </section>
+
+      <p class="aside">This page is intentionally small. New projects get added when they become useful enough to deserve their own address.</p>
     </main>
 
     <footer class="site-footer">
