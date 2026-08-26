@@ -1,4 +1,6 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
-  <rect width="64" height="64" rx="14" fill="#075c9f"/>
-  <path d="M19 14h8v16.2L41.4 14H51L34.3 32.1 52 50H41.7L27 34.9V50h-8z" fill="#fff"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" role="img" aria-labelledby="title desc">
+  <title id="title">Kendell icon</title>
+  <desc id="desc">A white rounded square with a Bristol green branching K.</desc>
+  <rect x="24" y="24" width="208" height="208" rx="48" fill="#ffffff" stroke="#00491e" stroke-width="12"/>
+  <path d="M78 68v120M80 128l88-58M80 128l92 60" fill="none" stroke="#00491e" stroke-width="18" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>

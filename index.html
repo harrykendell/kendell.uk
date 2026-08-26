@@ -6,7 +6,7 @@
   <meta name="color-scheme" content="light dark">
   <meta name="theme-color" content="#f7f7f5" media="(prefers-color-scheme: light)">
   <meta name="theme-color" content="#171716" media="(prefers-color-scheme: dark)">
-  <meta name="description" content="Kendell projects, tools and practical notes.">
+  <meta name="description" content="Kendell projects and tools.">
   <title>Kendell</title>
   <link rel="icon" href="favicon.svg" type="image/svg+xml">
   <link rel="stylesheet" href="styles.css">
@@ -14,51 +14,33 @@
 <body>
   <div class="page-shell">
     <header class="site-header">
-      <a class="brand" href="/" aria-label="Kendell home">kendell.uk</a>
-      <span class="header-note">projects &amp; useful things</span>
+      <a class="brand" href="/" aria-label="Kendell home">
+        <img class="brand-mark" src="favicon.svg" alt="">
+        <span>kendell.uk</span>
+      </a>
+      <a class="github-link" href="https://github.com/harrykendell">GitHub</a>
     </header>
 
     <main>
       <section class="intro" aria-labelledby="page-title">
-        <h1 id="page-title">Things I build and maintain.</h1>
-        <p class="lede">Mostly lab software, workshop tools and small bits of infrastructure that are more useful with a proper home than buried in a bookmark folder.</p>
+        <h1 id="page-title">Projects</h1>
+        <p>Lab software and workshop tools.</p>
       </section>
 
-      <section class="project-list" aria-label="Projects">
-        <a class="project-row project-row--green" href="https://artiq.kendell.uk/">
-          <span class="project-index" aria-hidden="true">01</span>
-          <span class="project-main">
-            <span class="project-title">ARTIQ lab tools</span>
-            <span class="project-description">Live experiment viewer, archive and control interface for the cold-atom lab.</span>
-          </span>
-          <span class="project-meta">
-            <span class="project-kind">lab</span>
-            <span class="project-host">artiq.kendell.uk</span>
-          </span>
+      <nav class="project-list" aria-label="Projects">
+        <a class="project-row" href="https://artiq.kendell.uk/">
+          <span class="project-title">ARTIQ lab tools</span>
+          <span class="project-description">Experiment viewer, archive and control.</span>
           <span class="project-arrow" aria-hidden="true">↗</span>
         </a>
 
-        <a class="project-row project-row--brown" href="https://repairs.kendell.uk/">
-          <span class="project-index" aria-hidden="true">02</span>
-          <span class="project-main">
-            <span class="project-title">Boat repairs</span>
-            <span class="project-description">Repair records, practical guidance and workshop documentation for rowing boats.</span>
-          </span>
-          <span class="project-meta">
-            <span class="project-kind">workshop</span>
-            <span class="project-host">repairs.kendell.uk</span>
-          </span>
+        <a class="project-row" href="https://repairs.kendell.uk/">
+          <span class="project-title">Boat repairs</span>
+          <span class="project-description">Repair records and workshop guidance.</span>
           <span class="project-arrow" aria-hidden="true">↗</span>
         </a>
-      </section>
-
-      <p class="aside">This page is intentionally small. New projects get added when they become useful enough to deserve their own address.</p>
+      </nav>
     </main>
-
-    <footer class="site-footer">
-      <span>kendell.uk</span>
-      <a href="https://github.com/harrykendell">GitHub</a>
-    </footer>
   </div>
 </body>
 </html>
