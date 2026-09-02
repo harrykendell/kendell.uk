@@ -133,6 +133,33 @@ main {
   object-fit: contain;
 }
 
+.project-logo-rowing {
+  transform: scale(1.12);
+}
+
+.project-logo-cycle {
+  position: relative;
+}
+
+.project-logo-cycle img {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  animation: mcp-logo-cycle 4s ease-in-out infinite;
+}
+
+.project-logo-cycle img:last-child {
+  animation-delay: -2s;
+}
+
+@keyframes mcp-logo-cycle {
+  0%, 42% { opacity: 1; transform: scale(1); }
+  50%, 92% { opacity: 0; transform: scale(.94); }
+  100% { opacity: 1; transform: scale(1); }
+}
+
 .project-copy {
   display: grid;
   gap: 3px;
@@ -193,5 +220,13 @@ main {
 @media (prefers-reduced-motion: reduce) {
   .project-row {
     transition: none;
+  }
+
+  .project-logo-cycle img {
+    animation: none;
+  }
+
+  .project-logo-cycle img:last-child {
+    display: none;
   }
 }
