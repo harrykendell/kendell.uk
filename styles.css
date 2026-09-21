@@ -137,53 +137,6 @@ main {
   transform: scale(1.12);
 }
 
-.project-logo-flipper {
-  perspective: 310px;
-  perspective-origin: 50% 44%;
-}
-
-.project-logo-flip-card {
-  position: relative;
-  display: block;
-  width: 100%;
-  height: 100%;
-  transform-style: preserve-3d;
-  animation: mcp-logo-turn 5s cubic-bezier(.55, .06, .35, 1) infinite;
-  will-change: transform;
-}
-
-.project-logo-flip-face {
-  position: absolute;
-  inset: 0;
-  overflow: hidden;
-  border-radius: 11px;
-  backface-visibility: hidden;
-  -webkit-backface-visibility: hidden;
-}
-
-.project-logo-flip-face.back {
-  transform: rotateY(180deg);
-}
-
-.project-logo-flip-face img {
-  display: block;
-  width: 100%;
-  height: 100%;
-  object-fit: contain;
-}
-
-@keyframes mcp-logo-turn {
-  0%, 36% {
-    transform: rotateX(-2deg) rotateY(0deg);
-  }
-  46%, 86% {
-    transform: rotateX(2deg) rotateY(180deg);
-  }
-  96%, 100% {
-    transform: rotateX(-2deg) rotateY(360deg);
-  }
-}
-
 .project-copy {
   display: grid;
   gap: 3px;
@@ -244,13 +197,5 @@ main {
 @media (prefers-reduced-motion: reduce) {
   .project-row {
     transition: none;
-  }
-
-  .project-logo-flip-card {
-    animation: none;
-  }
-
-  .project-logo-flip-face.back {
-    display: none;
   }
 }
