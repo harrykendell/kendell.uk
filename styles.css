@@ -133,18 +133,6 @@ main {
   object-fit: contain;
 }
 
-.project-glyph {
-  display: grid;
-  place-items: center;
-  border: 1px solid var(--border-strong);
-  border-radius: 12px;
-  color: var(--green);
-  font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
-  font-size: 20px;
-  font-weight: 760;
-  line-height: 1;
-}
-
 .project-logo-rowing {
   transform: scale(1.12);
 }

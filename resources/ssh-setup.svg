@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" role="img" aria-labelledby="title desc">
+  <title id="title">SSH setup icon</title>
+  <desc id="desc">A white rounded app icon with a Bristol green download arrow.</desc>
+  <rect x="24" y="24" width="208" height="208" rx="48" fill="#ffffff" stroke="#00491e" stroke-width="12"/>
+  <path d="M128 72v72M98 116l30 30 30-30M82 170v18h92v-18" fill="none" stroke="#00491e" stroke-width="18" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
