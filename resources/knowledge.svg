@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" role="img" aria-labelledby="title desc">
+  <title id="title">Knowledge icon</title>
+  <desc id="desc">A white rounded app icon with a Bristol green open book.</desc>
+  <rect x="24" y="24" width="208" height="208" rx="48" fill="#ffffff" stroke="#00491e" stroke-width="12"/>
+  <path d="M128 92c-16-12-36-18-66-17v98c30-1 50 5 66 17 16-12 36-18 66-17V75c-30-1-50 5-66 17Z" fill="none" stroke="#00491e" stroke-width="12" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M128 92v98" fill="none" stroke="#00491e" stroke-width="12" stroke-linecap="round"/>
+</svg>
