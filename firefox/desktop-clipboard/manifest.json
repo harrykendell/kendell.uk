@@ -1,0 +1,31 @@
+{
+  "manifest_version": 3,
+  "name": "Kendell Desktop Clipboard",
+  "version": "0.1.0",
+  "description": "Bidirectional clipboard synchronisation for desktop.kendell.uk (Guacamole).",
+  "permissions": ["clipboardRead", "clipboardWrite"],
+  "host_permissions": ["https://desktop.kendell.uk/*"],
+  "content_scripts": [
+    {
+      "matches": ["https://desktop.kendell.uk/*"],
+      "js": ["page.js"],
+      "run_at": "document_start",
+      "world": "MAIN"
+    },
+    {
+      "matches": ["https://desktop.kendell.uk/*"],
+      "js": ["content.js"],
+      "run_at": "document_start",
+      "world": "ISOLATED"
+    }
+  ],
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "desktop-clipboard@kendell.uk",
+      "strict_min_version": "128.0",
+      "data_collection_permissions": {
+        "required": ["none"]
+      }
+    }
+  }
+}
